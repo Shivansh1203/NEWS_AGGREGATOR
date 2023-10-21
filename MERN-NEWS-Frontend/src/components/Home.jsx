@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 import NewsCard from "./Card";
 
 // const API_KEY = "49923d432c0d4155abcc54918f2aeeb6";
-const url = "https://api.newscatcherapi.com/v2/search?q=";
+const url = "";
 
 const App = () => {
   const [articless, setArticles] = useState([]);
@@ -18,7 +18,7 @@ const App = () => {
       method: 'GET', 
       headers: {
         'Content-Type': 'application/json',
-        'x-api-key': 'vaBEYaUcSRNCMbwer2DuL4VCh8VPCWVL4kUzh0oEZLk'
+        'x-api-key': ''
       }
     });
     const data = await res.json();
